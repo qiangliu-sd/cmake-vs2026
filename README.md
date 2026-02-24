@@ -3,7 +3,7 @@
 
 In Visual Studio 2026, **Property Sheet** (a .props file), which was an important and useful feature of earlier Visual Studios, is not needed for CMake Project, which does not depend on .sln or .vcxproj files and is cross platform.
 
-CMake Project utlizes **CMakeLists.txt** and CMakePresets.json files for C++ compiling setings. You can download them, edit and use for your own purpose.
+CMake Project utilizes **CMakeLists.txt** and CMakePresets.json files for C++ compiling setings. You can download them, edit and use for your own purpose.
 
 ### Dir structure
 My C++ codes are under dir(C++):

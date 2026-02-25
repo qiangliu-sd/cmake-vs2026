@@ -3,7 +3,7 @@
 
 In Visual Studio 2026, **Property Sheet** (a .props file), which was an important and useful feature of earlier Visual Studios, is not needed for CMake Project, which does not depend on .sln or .vcxproj files and is cross platform.
 
-CMake Project utilizes **CMakeLists.txt** and CMakePresets.json files for C++ compiling setings. You can download them, edit and use for your own purpose.
+CMake Project utilizes **CMakeLists.txt** and CMakePresets.json files for C++ compiling setings. You can download them here, edit and use for your own purpose.
 
 ### Dir structure
 My C++ codes are under dir(C++):
@@ -38,7 +38,8 @@ You need the **CMakeLists.txt** under both unitTest and libutility.
 4. Right-click **qlLIBMain (executable)** and choose "Build qlLIBMain" to compile the EXE.
 
 ### Notes
+This repository contains some of the sub-dirs of my **utility**.
 
-Dir(C++) here contains two files:
+Dir(C++) in this repository contains two help files:
 - CMakeCommon.md<a name="Notes"></a>
 - get-cpp-fnames.ps1: used to obtain the .cpp list in **libutility/CMakeLists.txt**

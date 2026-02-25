@@ -1,5 +1,5 @@
 # CMake with Visual Studio 2026: Working Samples and Guide
-    Compile static-lib and exe-App under one project
+    All you need to Compile static-lib and exe-App under one project
 
 In Visual Studio 2026, **Property Sheet** (a .props file), which was an important and useful feature of earlier Visual Studios, is not needed for CMake Project, which does not depend on .sln or .vcxproj files and is cross platform.
 

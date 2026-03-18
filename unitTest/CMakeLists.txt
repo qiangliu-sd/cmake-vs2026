@@ -19,7 +19,7 @@ target_link_libraries(qlLIBMain PRIVATE utilityql.lib)
 add_compile_options($<$<CONFIG:Release>:-O2>)
 
 # C++20 standard
-if (CMAKE_VERSION VERSION_GREATER 3.12)
+if (CMAKE_VERSION VERSION_GREATER 3.15)
   set_property(TARGET qlLIBMain PROPERTY CXX_STANDARD 20)
 endif()
 

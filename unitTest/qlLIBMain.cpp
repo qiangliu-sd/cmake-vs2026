@@ -1,5 +1,6 @@
 
 #include "BadinputTest.h"
+#include "SingleTest.h"
 
 #include "errorhandling/QLExcept.h"
 
@@ -12,7 +13,8 @@ int main( int argc, char *argv[] )
 {  try {
 	cout << argv[0] << " started ...\n";
 
-	test_BadInput();
+	//test_BadInput();
+	testSingleton();
 	
 	cout << argv[0] << " finished successfully!\n\n";
 } 

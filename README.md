@@ -37,6 +37,17 @@ You need the **CMakeLists.txt** in both unitTest and zutility.
 
 4. Right-click **qlLIBMain (executable)** and choose "Build qlLIBMain" to compile the EXE.
 
+### Bug report
+For dll build, LIBRARY_OUTPUT_DIRECTORY does not work:
+> set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${QL_CPP_DIR}qlcdll/Rls64)
+or
+> set_target_properties(MyLib_dll PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${QL_CPP_DIR}qlcdll/Rls64)
+or
+> set_target_properties(MyLib_dll PROPERTIES LIBRARY_OUTPUT_DIRECTORY_RELEASE ${QL_CPP_DIR}qlcdll/Rls64)
+
+RUNTIME_OUTPUT_DIRECTORY works, however:
+> set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${QL_CPP_DIR}qlcdll/Rls64)
+
 ### Notes
 
 Dir(C++) here on GitHub contains three files:

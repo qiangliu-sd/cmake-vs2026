@@ -40,8 +40,10 @@ You need the **CMakeLists.txt** in both unitTest and zutility.
 ### Bug report
 For dll build, LIBRARY_OUTPUT_DIRECTORY does not work:
 > set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${QL_CPP_DIR}qlcdll/Rls64)
+
 or
 > set_target_properties(MyLib_dll PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${QL_CPP_DIR}qlcdll/Rls64)
+
 or
 > set_target_properties(MyLib_dll PROPERTIES LIBRARY_OUTPUT_DIRECTORY_RELEASE ${QL_CPP_DIR}qlcdll/Rls64)
 
